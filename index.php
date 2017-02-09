@@ -3,7 +3,6 @@
     require_once('include/gen_functions.php');
 ?>
 
-
   <body class="welcome-page animated fadeIn" style="text:#000">
 
 
@@ -163,7 +162,7 @@
 
 
 
-    <div class="welcome-full animated fadeInLeft">
+    <div class="welcome-full animated fadeInLeft hidden">
       <div class="row col-md-22">
 
         <form action="" method="POST" autocomplete="off">
