@@ -6,7 +6,7 @@
   <body class="welcome-page animated fadeIn" style="text:#000">
 
 
-  <nav class="navbar navbar-default navbar-inverse" role="navigation">
+  <nav class="navbar navbar-default navbar-inverse" style="border-radius:0px;" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -162,29 +162,8 @@
 
 
 
-    <div class="welcome-full animated fadeInLeft hidden">
-      <div class="row col-md-22">
-
-        <form action="" method="POST" autocomplete="off">
-
-          <input type="text" id="short" name="" placeholder="Username or email">
-
-          <input type="password" id="short" name="" placeholder="Password">
-
-          <!--<input type="checkbox" name="remember" value="1">-->
-
-          <a type="submit" href="profile.html" name="login" class="btn btn-danger">Login</a>
-
-          <span class="forgot-password-link">
-
-            <a href="#">Forgot your password?</a><br>
-
-          </span>
-
-        </form> 
-
-      </div>
-
+    <div class="welcome-full animated fadeInLeft">
+      
       <div class="row-body">
 
         <!-- some registered users -->
